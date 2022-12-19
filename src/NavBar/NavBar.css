@@ -1,0 +1,25 @@
+.nav_arange {
+    font-size: 250%;
+    text-decoration: underline;
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 500px) {
+    .nav_arange {
+        font-size: 180%;
+    }
+}
+ 
+@media screen and (max-width: 330px) {
+    .nav_arange {
+        font-size: 160%;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 280px) {
+    .nav_arange {
+        font-size: 128%;
+    }
+}
+
+    

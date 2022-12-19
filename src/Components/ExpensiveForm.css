@@ -1,0 +1,162 @@
+
+.wrapper {
+    margin: 3% auto;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    width: 50%;
+    border-radius:15px;
+    background-color:rgb(223, 236, 244);
+    /* box-shadow: 3px 3px 3px 3px rgba(255, 255, 0, 0.322), -3px 3px 3px 3px rgba(173, 184, 153, 0.589); */
+} 
+
+.expensive-name {
+    text-align: left;
+}
+
+.expensive-name label {
+    padding: 3px;
+    font-size: 121%;
+    color: rgb(2, 2, 91);
+    font-weight: bolder;
+}
+
+.expensive-name input {
+     box-shadow: 1px 1px 1px 1px gray;
+    height:2rem;
+    background-color: white;
+    color:rgb(54, 1, 1);
+    font-style: unset;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.expensive-price {
+    text-align: left;
+}
+
+.expensive-price label {
+    padding: 3px;
+    font-size: 20px;
+    color: rgb(46, 38, 32);
+    font-weight: bolder;
+    color: rgb(2, 2, 91);
+}
+
+.expensive-price input {
+    box-shadow: 1px 1px 1px 1px gray;
+    height:2rem;
+    /* background-color: white; */
+    color:rgb(54, 1, 1);
+    font-style: unset;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.expensive-date label {
+    text-align: left;
+    padding: 3px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(46, 38, 32);
+    font-weight: bolder;
+    color: rgb(2, 2, 91);
+}
+
+.expensive-date input {
+    box-shadow: 1px 1px 1px 1px gray;
+    height:2rem;
+    /* background-color: white; */
+    color:rgb(54, 1, 1);;
+    font-style: unset;
+    font-weight: 500;
+    border-radius: 10px;
+    border-width: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-clear {
+    font-size: 1rem;
+    font-weight: bolder;
+    box-shadow: 1px 1px 1px 1px gray;
+    height:2rem;
+    color: rgb(0, 0, 0);
+    width:25%;
+    margin-right: 7%;
+    border-radius: 25px;
+    border-width: 0px;
+    background-color:rgb(250, 239, 255);
+}
+
+.btn-submit {
+    font-size: 1rem;
+    font-weight: bolder;
+    box-shadow: 1px 1px 1px 1px gray;
+    height:2rem;
+    color: rgb(255, 255, 255);
+    width:25%;
+    margin-right: 7%;
+    border-radius: 25px;
+    border-width: 0px;
+    background-color:rgb(54, 54, 146);
+}
+
+
+@media only screen and (max-width:500px){
+    .wrapper {
+        width: 95%;
+    }
+    .expensive-price{
+        margin-top: 15px;
+    }   
+
+    .expensive-date{
+        margin-top: -15px;
+        text-align: left;
+    }
+
+    .btn-clear{
+        width:100%;
+        margin-bottom: 30px;
+    }
+
+    .btn-submit{
+        width:100%;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:999px){
+    .wrapper {
+        width: 75%;
+    }
+
+    .expensive-price{
+        margin-top: 15px;
+    }   
+
+    .expensive-date{
+        margin-top: -15px;
+        text-align: left;
+    }
+
+    .expensive-date input{
+        width: 100%;
+    }
+
+    .btn-clear{
+        width:100%;
+        margin-bottom: 30px;
+    }
+
+    .btn-submit{
+        width:100%;
+    }
+} 
+
+@media screen and (min-width: 1000px) and (max-width:1100px) {
+    .wrapper {
+        width: 60%;
+    
+    }
+}
+    

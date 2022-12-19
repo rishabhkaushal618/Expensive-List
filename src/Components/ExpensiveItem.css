@@ -1,0 +1,120 @@
+.tr {
+    margin: 3% auto;
+    width: 50%;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    border-radius:15px;
+    background-color:rgb(223, 236, 244);
+    /* box-shadow: 3px 3px 3px 3px rgba(255, 255, 0, 0.322), -3px 3px 3px 3px rgba(173, 184, 153, 0.589); */
+}
+
+.item-wrapper{
+    margin: 1% auto;
+}
+
+.item-date{
+    text-align: left; 
+    /* margin-left: 25px; */
+}
+
+.item-date h2{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+}
+
+.item-date h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -5px;
+}
+
+.item-price h2 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 23px;
+    text-align: right;
+}
+
+.bi-x-octagon-fill {
+    font-size: 22px;
+    color:rgb(54, 54, 146);
+    cursor: pointer;
+    /* margin-right: 15px; */
+    float: right;
+}
+
+.bi-pencil-square {
+    font-size: 22px;
+    color:rgb(100, 100, 100);
+    cursor: pointer;
+    float: right;
+}
+
+.bi-x-octagon-fill:hover {
+    font-size: 25px;
+    color:rgb(255, 50, 50);
+    cursor: pointer;
+}
+
+.bi-pencil-square:hover {
+    font-size: 25px;
+    color:rgb(4, 90, 248);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .tr {
+        width: 95%;
+    }
+
+    .bi-x-octagon-fill {
+        font-size: 18px;
+        color:rgb(54, 54, 146);
+        cursor: pointer;
+        /* margin-right: 15px; */
+        float: right;
+    }
+    
+    .bi-pencil-square {
+        font-size: 18px;
+        color:rgb(100, 100, 100);
+        cursor: pointer;
+        float: right;
+    }
+    
+    .bi-x-octagon-fill:hover {
+        font-size: 20px;
+        color:rgb(255, 50, 50);
+        cursor: pointer;
+    }
+
+    .bi-pencil-square:hover {
+        font-size: 20px;
+        color:rgb(4, 90, 248);
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:999px) {
+    .tr {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .bi-pencil-square {
+        margin-top:27px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width:1100px) {
+    .tr {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .item-price {
+        padding-left: 1px;
+    }
+}
