@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Expenser - Daily Expense Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Developed this application using ReactJs and Bootstrap for building the UI and for managing the states.
 
 ## Available Scripts
 
